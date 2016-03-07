@@ -1,0 +1,155 @@
+body {
+ background-color: #EBEBEB;
+}
+.gadgets_shop {
+ display: block;
+ position: relative;
+ top: 100px;
+ left: 0px;
+ border-radius: 5px;
+ background-color: white;
+}
+.gadgets_shop h2 {
+ font-family: 'Montserrat', sans-serif;
+ color: #224044;
+ font-size: 27px;
+ font-weight: bold;
+}
+.gadgets_shop p {
+ font-family: 'Montserrat', sans-serif;
+ color: #FF3D00;
+ font-size: 12px;
+ font-weight: normal;
+ text-indent: 8px;
+}
+.gadgets_shop .like{
+ display: block;
+ float: right;
+ color: #FF3D00;
+ border-left: 1px solid #EBEBEB;
+ padding-left: 12px;
+}
+.user_profile {
+ display: block;
+ margin-left: -10px;
+}
+.user_social{
+ display: block;
+ float: left;
+}
+.user_social ul li> a{
+ font-size: 15px;
+ font-weight: normal;
+ padding: 9px;
+ float: left;
+ text-transform: uppercase;
+}
+.gadgets_shop .gadgets_text {
+ font-family: 'Montserrat', sans-serif;
+ color: #224044;
+ font-size: 12.6px;
+ font-weight: normal;
+ text-align:justify;
+ line-height: 24px;
+}
+.hr {
+ display: block;
+ position: relative;
+ top: 0px;
+ left: 25%;
+ width: 50%;
+ height: 3px;
+ background-color: #CCC;
+ border-radius: 5px;
+}
+.gadget_item h2 {
+ font-family: 'Montserrat', sans-serif;
+ color: #224044;
+ font-size: 24px;
+ font-weight: bold;
+}
+.gadget_item h3 {
+ font-family: 'Montserrat', sans-serif;
+ color: #224044;
+ font-size: 15px;
+ font-weight: bold;
+}
+.gadgets_item.gadgets_text {
+ font-family: 'Montserrat', sans-serif;
+ color: #224044;
+ font-size: 12.6px;
+ font-weight: normal;
+ line-height: 24px;
+}
+.gadgets_item .btn-default {
+  display: block;
+  position: relative;
+  top: -10px;
+  left: 20px;
+}
+.gadget_item p{
+ font-family: 'Montserrat', sans-serif;
+ color: #224044;
+}
+.gadget_item a {
+ font-family: 'Montserrat', sans-serif;
+ color: #CCC;
+ position: relative;
+ float: right;
+ top: -20px;
+ font-weight: bold;
+}
+
+.related_shops .shop {
+ display: block;
+ width: 48%;
+ height: 210px; 
+ margin-left: 2%;
+ margin-top: 2%;
+ background-color: #224044;
+}
+.advertisement p{
+ font-family: 'Montserrat', sans-serif;
+  color: #224044;
+  font-size: 21px;
+  margin-top: 39%;
+}
+.advt {
+ display: block;
+ height: 210px;
+ width: 110%;
+ background-color: #224044;
+}
+.popular p{
+ font-family: 'Montserrat', sans-serif;
+  color: #224044;
+  font-size: 21px;
+  margin-top: 10%;
+}
+.pop_shops {
+ display: block;
+ height: 210px;
+ width: 110%;
+ margin-top: 2%;
+ background-color: #224044;
+}
+.latest p{
+ font-family: 'Montserrat', sans-serif;
+  color: #224044;
+  font-size: 21px;
+  margin-top: 10%;
+}
+.lat_shops {
+ display: block;
+ height: 210px;
+ width: 110%;
+ margin-top: 2%;
+ background-color: #224044;
+}
+.banner {
+  display: block;
+  margin-top: 3%;
+}
+.footer {
+ margin-top: 9%;
+}
