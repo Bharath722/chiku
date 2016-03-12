@@ -1,0 +1,89 @@
+body {
+ background-color: #EBEBEB;
+}
+#gadget_detail {
+ display: block;
+ margin-top: 100px;
+}
+#thum {
+  display: block;
+  margin-top: 18px;
+  margin-left: 9px;
+}
+.thum_img{
+ display: block;
+ width: 18%;
+ margin-left: 6px;
+ float: left;
+ border: 2px solid grey;
+}
+#main_image{
+  width: 100%;
+}
+.details {
+ display: block;
+ background-color: white;
+ padding: 9px;
+}
+.details h2 {
+ font-family: 'Montserrat', sans-serif;
+ color: #224044;
+ font-size: 24px;
+ font-weight: bold;
+}
+.details p {
+  font-family: 'Montserrat', sans-serif;
+ color: #224044;
+ font-size: 15px;
+ font-weight: bold;
+}
+.details p>a {
+ color: #CCC;
+}
+.details ul {
+ margin-left: -42px;
+}
+.details ul li> a{
+ display: block;
+ float: left;
+ margin-top: -18px;
+ margin-left: 9px;
+ }
+ .fa-heart{
+  color: #FF3D00;
+  border-left: 0.6px solid #FF3D00;
+  padding-left: 15px;
+ }
+ .like {
+   display: block;
+   position: relative;
+   margin-top: -45px;
+  float: right;
+ }
+ .shops_list1 {
+  display: block;
+  background-color: white;
+  padding: 9px;
+  border-bottom: 1px solid #EBEBEB;
+ }
+ .shops_list1 .btn-default{
+    margin-top: 15px;
+ }
+ .shops_list .btn-default{
+    margin-top: 15px;
+ }
+ .shops_list {
+  display: block;
+  background-color: white;
+  padding: 9px;
+  margin-top: 18px;
+   border-bottom: 1px solid #EBEBEB;
+ }
+.shops_list .fa-amazon {
+  color: #224044;
+  margin-top: 15px;
+} 
+.shops_list1 .fa-amazon {
+  color: #224044;
+  margin-top: 15px;
+} 

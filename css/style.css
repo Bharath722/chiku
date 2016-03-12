@@ -11,15 +11,17 @@
   font-family: 'Montserrat', sans-serif;
   font-size: 15px;
 }
-#menu_bar ul>li:hover{
- border-bottom: 3px solid #FF3D00;
+
+.navbar-brand {
+ display: block;
+  position: relative;
+  left: 510px;
 }
-.navbar-inverse .navbar-nav > .active > a{
-    border-bottom: 3px solid #FF3D00;
-	background-color: transparent;
-}
-.navbar-inverse .navbar-nav > .active > a:hover{
-	background-color: transparent;
+#mn {
+  display: block;
+  position: relative;
+  left: -300px;
+  top: 18px;
 }
 .fa-bars{
  display: block;
@@ -108,6 +110,13 @@
  background-color: white;
  margin-top: 9px;
 }
+.label-default{
+  background-color: #FF3D00;
+  font-family: 'Montserrat', sans-serif;
+ font-size: 9px;
+ letter-spacing: 1px;
+ font-weight: bold;
+}
 #products  h2 {
  font-family: 'Montserrat', sans-serif;
  color: #5D5D5D;
@@ -154,4 +163,18 @@
  padding: 9px;
  float: left;
  text-transform: uppercase;
+}
+.colr {
+ display: block;
+ color: #FF3D00;
+ font-weight: bold;
+ font-size: 21px;
+}
+.free_shi {
+ font-family: 'Montserrat', sans-serif;
+ color: #224044;
+ font-size: 15px;
+ font-weight: italic;
+ text-transform: uppercase;
+ color: green;
 }
