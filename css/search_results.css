@@ -1,0 +1,73 @@
+* {
+ text-decoration: none !important;
+}
+body {
+ background-color: #EBEBEB;
+}
+#search_results{
+ margin-top: 100px;
+}
+.nav-tabs>li>a {
+ color: #CCC;
+ font-weight: bold;
+ font-size: 17px;
+ font-family: 'Montserrat', sans-serif;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+  background-color: transparent;
+  color: #FF3D00;
+  border: none;
+  border-bottom: 2px solid #FF3D00;
+}
+#search_results  h2 {
+ font-family: 'Montserrat', sans-serif;
+ color: #5D5D5D;
+ font-size: 27px;
+ font-weight: bold;
+ text-indent: 10px;
+}
+#search_results p {
+ font-family: 'Montserrat', sans-serif;
+ color: #FF3D00;
+ font-size: 12px;
+ font-weight: normal;
+ text-indent: 8px;
+}
+#search_results .like{
+ display: block;
+ float: right;
+ color: #5D5D5D;
+ border-left: 1px solid #EBEBEB;
+ padding-left: 12px;
+}
+.product_shop {
+ margin-top: 9px;
+}
+#shopoholics {
+ display: block;
+ margin-top: 18px;
+}
+.shopoholics {
+ background-color: white;
+ border-bottom: 1px solid #CCC;
+}
+.user_details {
+ display: block;
+ position: relative;
+ margin-left: -234px;
+ margin-top: 9px;
+}
+.subt {
+ display: block;
+ color: #224044;
+ position: relative;
+ margin-top: -9px;
+}
+.colr {
+ color: #FF3D00;
+ font-size: 15px;
+}
+.footer {
+ display: block;
+ margin-bottom: 0px;
+}
