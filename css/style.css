@@ -1,5 +1,6 @@
 * {
  list-style-type: none;
+ text-decoration: none !important;
  font-family: 'Montserrat', sans-serif;
 }
 .navbar-inverse{
@@ -38,12 +39,20 @@
   top: 60px;
   left: 0px;
   width: 20%;
-  height: auto;
+  height: 900px;
   background-color: #224044;
+  line-height: 33px;
+ }
+ #menu_left ul{
+   margin-top: 54px;
+   margin-left: -30px;
  }
  #menu_left ul > li{
     text-decoration: none;
  }
+  #menu_left ul > li>a:hover{
+   color: #FF3D00;
+  }
 #main_header{
     display:block;
     width:100%;
@@ -94,13 +103,19 @@
 #products {
   display: block;
   background-color: #EBEBEB;
-  
+}
+.product_heading{
+ display: block;
+ margin-left: -15px;
 }
 #products_header {
  font-family: 'Montserrat', sans-serif;
  color: #224044;
  font-size: 21px;
  font-weight: bold;
+}
+.product_heading{
+ 
 }
 .product_shop{
  display: block;
@@ -109,6 +124,8 @@
 .thumbnail {
  background-color: white;
  margin-top: 9px;
+ border: none;
+ border-radius: 0px;
 }
 .label-default{
   background-color: #FF3D00;
@@ -148,7 +165,7 @@
 }
 .loadb{
  text-transform: uppercase;
- box-shadow: 3px 3px #888888;
+ margin-left: -180px;
 }
 .footer {
  display: block;
@@ -177,4 +194,8 @@
  font-weight: italic;
  text-transform: uppercase;
  color: green;
+}
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active {
+ border: 0px;
+ background-color: #FF3D00;
 }
